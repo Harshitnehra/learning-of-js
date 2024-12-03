@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .colur {
+            background: rebeccapurple;
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .bgcolur {
+            background: red;
+            color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+  </style>
+  <body>
+    <!-- <div class="colur">hllo siddhath</div>
+    <button id="har">click me</button>
+
+    <script>
+      let nehra = document.querySelector("#har");
+      nehra.addEventListener("click", () => {
+        let hold = document.querySelector(".colur");
+        if (hold.classList.contains("colur")) {
+          hold.classList.replace("colur", "bgcolur");
+        } else {
+          hold.classList.replace("bgcolur", "colur");
+        }
+      });
+    </script> -->
+
+<div class="colur">Hello Siddhath</div>
+<button id="har">Click Me</button> 
+
+<script>
+    // Select the button by its ID
+    let nehra = document.querySelector("#har");
+
+    // Add a click event listener to the button
+    nehra.addEventListener("click", () => {
+        // Select the div element by its class
+        let hold = document.querySelector("div");
+
+        // Toggle between the 'colur' and 'bgcolur' classes
+        if (hold.classList.contains("colur")) {
+            hold.classList.replace("colur", "bgcolur");
+        } else {
+            hold.classList.replace("bgcolur", "colur");
+        }
+    }); 
+</script> 
+  </body>
+</html>
