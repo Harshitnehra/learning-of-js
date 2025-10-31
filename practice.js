@@ -1,11 +1,4 @@
-function muntby(num){
-  return function (factor){
-    return factor * num
-  }
+function show() {
+  console.log(this);
 }
-
-let double = muntby(3)
-
-console.log(double(5));
-
-
+show(); // In browser -> Window
