@@ -1,6 +1,12 @@
-function factorial(n) {
-  if (n === 0) return 1;   // Base case
-  return n * factorial(n - 1);  // Recursive call
-}
+const counter = (function() {
+  let count = 0;
+  return {
+    increment: () => ++count,
+    decrement: () => --count,
+    value: () => count
+  };
+})();
 
-console.log(factorial(5)); // Output: 120
+console.log(counter.increment()); // 1
+console.log(counter.decrement()); // 2
+console.log(counter.value());     // 2
