@@ -1,34 +1,34 @@
-// // console.log(a)
-// // var a = 10
+console.log(a)
+var a = 10
 
-// // console.log(s)
-// // let s = 10
+console.log(s)
+let s = 10
 
-// // function hosting
-// // sayHello();
+function hosting
+sayHello();
 
-// // function sayHello() {
-// //   console.log("Hello");
-// // }
+function sayHello() {
+  console.log("Hello");
+}
 
-// // sayhi()
-// //  var sayhi = function(){
-// //   console.log("sayhi");
-// // }
+sayhi()
+ var sayhi = function(){
+  console.log("sayhi");
+}
 
-// // sayhi()
+sayhi()
 
-// const a = 1;
+const a = 1;
 
-// function outer() {
-//   console.log(a);
-//   // var a = 2;
-// }
+function outer() {
+  console.log(a);
+  // var a = 2;
+}
 
-// outer();
-// const numbers = [5, 10, 15];
+outer();
+const numbers = [5, 10, 15];
 
-// console.log(...numbers);
+console.log(...numbers);
 function sum(a, ...numbers) {
   console.log(a , numbers);
 }
